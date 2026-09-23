@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samba Ndiaye — Portfolio</title>
+  <meta name="description" content="Portfolio de Samba Ndiaye, étudiant en Informatique - Développement d'Applications à l'UNCHK." />
+
+  <!-- Polices Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icônes (Font Awesome, via CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#accueil" class="logo">Samba Ndiaye</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Bouton mode sombre / clair -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Changer de thème">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <!-- Bouton menu hamburger (mobile) -->
+        <button id="hamburger" class="hamburger" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= HERO / ACCUEIL ================= -->
+  <section id="accueil" class="hero">
+    <div class="hero-container">
+      <div class="hero-text reveal">
+        <p class="hero-greeting">Bonjour, je suis</p>
+        <h1 class="hero-name">Samba Ndiaye</h1>
+        <p class="hero-role">Étudiant en Informatique – Développement d'Applications</p>
+        <p class="hero-desc">
+          Je développe mes compétences dans le développement web, la programmation
+          et les technologies numériques.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <div class="hero-frame">
+          <img src="images/profile.jpg" alt="Photo de Samba Ndiaye" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= À PROPOS ================= -->
+  <section id="apropos" class="section apropos">
+    <div class="section-container">
+      <h2 class="section-title reveal">À propos</h2>
+      <div class="apropos-content reveal">
+        <p>
+          Je suis étudiant en Licence Informatique – Développement d'Applications
+          à l'Université Numérique Cheikh Hamidou Kane (UNCHK), promotion 13.
+          Je m'intéresse au développement web, aux applications mobiles et aux
+          technologies numériques, et je cherche constamment à renforcer mes
+          bases en programmation à travers des projets concrets.
+        </p>
+        <div class="apropos-infos">
+          <div class="info-item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <span class="info-label">Formation</span>
+              <span class="info-value">Développement d'Applications Web, Mobile et Gaming</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-building-columns"></i>
+            <div>
+              <span class="info-label">Université</span>
+              <span class="info-value">UNCHK — Promotion 13</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span class="info-label">Localisation</span>
+              <span class="info-value">Sénégal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPÉTENCES ================= -->
+  <section id="competences" class="section competences">
+    <div class="section-container">
+      <h2 class="section-title reveal">Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+        <div class="skill-card reveal"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+        <div class="skill-card reveal"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-card reveal"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+        <div class="skill-card reveal"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        <div class="skill-card reveal"><i class="fa-solid fa-diagram-project"></i><span>Algorithmique</span></div>
+        <div class="skill-card reveal"><i class="fa-brands fa-git-alt"></i><span>Git / GitHub</span></div>
+        <div class="skill-card reveal"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+        <div class="skill-card reveal"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+        <div class="skill-card reveal"><i class="fa-solid fa-file-word"></i><span>Word / Excel</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services" class="section services">
+    <div class="section-container">
+      <h2 class="section-title reveal">Services</h2>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Création de sites web</h3>
+          <p>Conception et développement de sites web simples et fonctionnels, adaptés aux besoins du client.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Développement frontend</h3>
+          <p>Intégration de maquettes en pages web propres avec HTML, CSS et JavaScript.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Sites responsives</h3>
+          <p>Des sites qui s'adaptent parfaitement aux mobiles, tablettes et ordinateurs.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-headset"></i>
+          <h3>Assistance informatique</h3>
+          <p>Aide et support pour l'informatique de base et les outils bureautiques (Word, Excel).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJETS ================= -->
+  <section id="projets" class="section projets">
+    <div class="section-container">
+      <h2 class="section-title reveal">Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="images/sunurecolte.jpg" alt="Projet SunuRécolte" />
+          </div>
+          <div class="project-body">
+            <h3>SunuRécolte</h3>
+            <p>Plateforme pensée pour connecter producteurs et acheteurs locaux et valoriser les récoltes agricoles.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="images/profile.jpg" alt="Portfolio personnel" />
+          </div>
+          <div class="project-body">
+            <h3>Portfolio personnel</h3>
+            <p>Site vitrine one-page présentant mon profil, mes compétences et mes projets.</p>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="images/projet1.jpg" alt="Projets HTML CSS JavaScript" />
+          </div>
+          <div class="project-body">
+            <h3>Projets HTML / CSS / JavaScript</h3>
+            <p>Série de mini-projets pratiques réalisés pour renforcer mes bases en développement web.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="images/projet2.jpg" alt="Projets universitaires" />
+          </div>
+          <div class="project-body">
+            <h3>Projets universitaires</h3>
+            <p>Travaux réalisés dans le cadre de ma formation à l'UNCHK (algorithmique, bases de données, etc.).</p>
+            <div class="tags">
+              <span>Algo</span><span>MySQL</span><span>PHP</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section contact">
+    <div class="section-container">
+      <h2 class="section-title reveal">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-infos reveal">
+          <h3>Samba Ndiaye</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Sénégal</p>
+          <p><i class="fa-solid fa-envelope"></i> samba.ndiaye29@unchk.edu.sn</p>
+
+          <div class="social-buttons">
+            <a href="mailto:samba.ndiaye29@unchk.edu.sn" class="social-btn" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/221000000000" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" />
+            <span class="error-msg" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" />
+            <span class="error-msg" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Envoyer</button>
+          <p class="form-success" id="formSuccess">Message envoyé avec succès ✔</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Samba Ndiaye — Tous droits réservés.</p>
+  </footer>
+
+  <!-- Bouton retour en haut -->
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
